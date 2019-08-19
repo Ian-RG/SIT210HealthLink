@@ -2,9 +2,6 @@ import RPi.GPIO as GPIO
 import statistics as stat
 import time
 
-#Based on HX711 library from https://github.com/gandalf15/HX711
-
-
 class Scales:
     def __init__(self):
         self.offset = 0
